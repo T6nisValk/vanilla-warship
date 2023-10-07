@@ -1,0 +1,157 @@
+<!-- Head and body are always needed, can be empty -->
+<html>
+  <head>
+    <title>My first HTML</title>
+  </head>
+  <body>
+    <!-- <br> New line -->
+    <br />
+    <br />
+
+    <!-- Form -->
+    <div>
+      <!-- <label> When clicked on, it goes to the input field. -->
+      <p></p>
+      <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Text input area. -->
+    <div>
+      <p></p>
+      <textarea rows="10" cols="50"> </textarea>
+
+      <!-- <Input> Simple text input,
+          Type = Password Makes any input *****,
+          Placeholder = Some value when empty,
+          Type = Submit creates a button,
+          Type = file can choose files -->
+      <p></p>
+      <select>
+        <option>One</option>
+        <option>Two</option>
+        <option>Three</option>
+      </select>
+      <p></p>
+      <input />
+      <p></p>
+      <input type="email" placeholder="something@somewhere.com" />
+      <input type="password" />
+      <input type="submit" value="Update" />
+      <p></p>
+      File:
+      <input type="file" />
+      <p></p>
+      Check button
+      <input type="checkbox" checked />
+      <p></p>
+      Radio button
+      <input type="radio" />
+    </div>
+
+    <!-- Tables -->
+    <div>
+      <p></p>
+      <table>
+        <thead>
+          <!-- <th> Table headers -->
+          <th>Col 1</th>
+          <th>Col 2</th>
+          <th>Col 3</th>
+        </thead>
+        <!-- <tr> Table row -->
+        <tr>
+          <!-- <td> Cell data -->
+          <td>|Data 1|</td>
+          <td>|Data 2|</td>
+          <td>|Data 3|</td>
+        </tr>
+        <tr>
+          <td>|More data 1|</td>
+          <td>|More data 2|</td>
+          <td>|More data 3|</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Lists -->
+    <div>
+      <!-- <ul> - Unbordered list,
+            <li> - List element -->
+      <ul>
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <ul>
+          <li>SubElement 3.1</li>
+          <li>SubElement 3.2</li>
+          <li>SubElement 3.3</li>
+        </ul>
+      </ul>
+
+      <!-- <ol> - Ordered list,
+            <li> - List element -->
+      <ol>
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <!-- Does not go 3.1, 3.2, 3.2 but starts from 1 again -->
+        <ol>
+          <li>SubElement 3.1</li>
+          <li>SubElement 3.2</li>
+          <li>SubElement 3.3</li>
+        </ol>
+      </ol>
+    </div>
+
+    <!-- Simple text -->
+    <div>
+      <!-- Headers  -->
+      <h1>Hello World!</h1>
+      <h2>Hello World!</h2>
+      <h3>Hello World!</h3>
+      <h4>Hello World!</h4>
+      <h5>Hello World!</h5>
+      <h6>Hello World!</h6>
+
+      <!-- This creates a Paragraph -->
+      <p>Testing html text.</p>
+      <p>Testing html text.</p>
+      <p>Testing html text.</p>
+      <p>Testing html text.</p>
+
+      <!-- This creates a Line -->
+      <span>Testing html text.</span>
+      <span>Testing html text.</span>
+      <span>Testing html text.</span>
+      <span>Testing html text.</span>
+
+      <!-- Font styles,
+            <b> and <strong> make the text Bold
+            <i> makes the text italic -->
+      <p>
+        <b>Testing html text.</b>
+      </p>
+      <p>
+        <strong>Testing html text.</strong>
+      </p>
+      <p>
+        <i>Testing html text.</i>
+      </p>
+
+      <!-- <a> is an anchor tag, 
+            href = HTTP reference,
+            target = Specifies the place to open a new link,
+            target = "_blank" opens the link in new tab-->
+      <p>
+        Testing html text. Click
+        <b><a href="https://cupcakeipsum.com/" target="_blank">HERE</a></b> for info.
+      </p>
+    </div>
+  </body>
+</html>
