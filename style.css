@@ -1,0 +1,33 @@
+body {
+  background-image: url("./img.jpg");
+  font-family: "Times New Roman", Times, serif;
+}
+
+#login_form {
+  color: red;
+}
+
+.table_class {
+  /* border: 1px solid blue; */
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+}
+
+a[target="_blank"] {
+  color: green;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
