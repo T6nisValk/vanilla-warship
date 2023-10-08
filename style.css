@@ -31,3 +31,11 @@ ul,
 ol {
   list-style-type: none;
 }
+.color {
+  background-color: black;
+  color: white;
+}
+.change {
+  background-image: url("./img.jpg");
+  color: black;
+}
