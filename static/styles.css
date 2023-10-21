@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 75vh;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  width: 50%;
+  margin: 5px;
+}
+p {
+  text-align: end;
+  width: 50%;
+  margin: 5px;
+  color: green;
+}
