@@ -1,0 +1,12 @@
+{% extends "index.html" %} {% block content %}
+<div class="text-center mt-4">
+  <div>
+    <form method="POST" action="/register">
+      <label>Register</label>
+      <input type="text" name="username" id="username" placeholder="Username" required />
+      <input type="password" name="password" id="password" placeholder="********" required />
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</div>
+{% endblock content %}

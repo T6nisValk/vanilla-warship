@@ -1,0 +1,22 @@
+{% extends "index.html" %} {% block content %}
+<div class="text-center mt-4">
+  <div>
+    <form method="POST" action="/login">
+      <label>Login: </label>
+      <!-- Use dynamic or random names and IDs for the input fields -->
+      <input type="text" name="username_{{ random }}" id="username_{{ random }}" placeholder="Username" required />
+      <input type="password" name="password_{{ random }}" id="password_{{ random }}" placeholder="********" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+<script type="text/javascript">
+  // Generate a random number or string to create unique field names and IDs
+  var random = Math.random().toString(36).substring(2);
+  // Set the dynamic value to the input fields
+  document.getElementById("username_" + random).value = "";
+  document.getElementById("password_" + random).value = "";
+</script>
+
+{% endblock content %}
